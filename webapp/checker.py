@@ -10,5 +10,3 @@ def check_logged_in(func):
         return 'You are NOT logged in'
 
     return wrapper
-
-
